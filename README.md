@@ -8,7 +8,7 @@ Common Prisma commands
 # Open Studio
 % npx prisma studio
 # push the database - should be run to keep local and remote dbs in sync
-# TODO: Figure out if migrate makes more sense
+# when no longer prototyping, prefer migrate - https://www.prisma.io/docs/concepts/components/prisma-migrate
 % npx prism db push
 # Generate - should be run any time the schema changes
 % npx prisma generate
